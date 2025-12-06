@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Руфор — Создание сайтов и цифровых проектов</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="img/logo.svg" alt="Руфор" class="brand-logo">
+        <span class="brand-name">Руфор</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#about">О нас</a>
+        <a href="#contact" class="nav-cta">Оставить заявку</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Мы создаём цифровые продукты, которые работают</h1>
+          <p>Руфор — дизайн, разработка и интеграции: от лендинга до интернет‑банка. Современный UI, быстрые интерфейсы и акцент на пользователе.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+            <a href="#portfolio" class="btn btn-secondary">Посмотреть портфолио</a>
+          </div>
+
+          <ul class="hero-stats" aria-hidden="true">
+            <li><strong class="stat-num" data-target="120">0</strong><span>проектов</span></li>
+            <li><strong class="stat-num" data-target="8">0</strong><span>лет опыта</span></li>
+            <li><strong class="stat-num" data-target="24">0</strong><span>сотрудников</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-cards">
+          <div class="card card-elevate reveal">
+            <div class="card-media">UX</div>
+            <div class="card-body">
+              <h3>UX / UI дизайн</h3>
+              <p>Исследования, прототипы и интерфейсы, которые действительно удобны.</p>
+            </div>
+          </div>
+
+          <div class="card card-elevate reveal">
+            <div class="card-media">Dev</div>
+            <div class="card-body">
+              <h3>Веб-разработка</h3>
+              <p>Адаптивные сайты, SPA и интеграции с сервисами и CRM.</p>
+            </div>
+          </div>
+
+          <div class="card card-elevate reveal">
+            <div class="card-media">Cloud</div>
+            <div class="card-body">
+              <h3>Инфраструктура</h3>
+              <p>Надёжные хостинги, CI/CD и поддержка 24/7.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services container">
+      <h2 class="section-title">Наши услуги</h2>
+      <div class="services-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon">🎯</div>
+          <h3>Сайты под ключ</h3>
+          <p>От лендинга до корпоративного портала — адаптивно и быстро.</p>
+          <a class="link-more" href="#contact">Заказать</a>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon">🔁</div>
+          <h3>Редизайн</h3>
+          <p>Обновим интерфейс, увеличим конверсию и комфорт пользователя.</p>
+          <a class="link-more" href="#contact">Заказать</a>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon">🛒</div>
+          <h3>e‑commerce</h3>
+          <p>Интернет‑магазин с интеграцией оплат и логистики.</p>
+          <a class="link-more" href="#contact">Заказать</a>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon">🔐</div>
+          <h3>Безопасность</h3>
+          <p>Аудит, шифрование и защита данных по стандартам.</p>
+          <a class="link-more" href="#contact">Заказать</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio container">
+      <h2 class="section-title">Портфолио Руфор</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item reveal">
+          <img src="img/portfolio-1.svg" alt="Проект 1">
+          <div class="portfolio-info">
+            <h4>Платформа управления</h4>
+            <p>Интерфейс для корпоративных пользователей с сложной аналитикой.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="img/portfolio-2.svg" alt="Проект 2">
+          <div class="portfolio-info">
+            <h4>Магазин электроники</h4>
+            <p>Скорость загрузки и удобная корзина повышают продажи.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="img/portfolio-3.svg" alt="Проект 3">
+          <div class="portfolio-info">
+            <h4>Мобильный сервис</h4>
+            <p>Кроссплатформенное приложение с простым UX.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2 class="section-title">О нас</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Руфор — команда дизайнеров и разработчиков. Мы помогаем бизнесам выводить цифровые продукты, которые решают реальные задачи клиентов.</p>
+          <ul>
+            <li>Фокус на результат</li>
+            <li>Гибкий процесс разработки</li>
+            <li>Поддержка после релиза</li>
+          </ul>
+        </div>
+        <div class="about-visual reveal">
+          <img src="img/about-visual.svg" alt="О нас">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2 class="section-title">Связаться с Руфор</h2>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <div class="row">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <input type="text" name="company" placeholder="Компания (опционально)">
+          <textarea name="message" rows="6" placeholder="Краткое описание проекта"></textarea>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Отправить</button>
+            <button class="btn btn-ghost" type="button" id="demoBtn">Запросить демо</button>
+          </div>
+        </form>
+
+        <aside class="contact-aside reveal">
+          <h3>Контакты</h3>
+          <p>hello@rufor.example<br>+7 (495) 000-00-00</p>
+          <p class="muted">Мы обычно отвечаем в течение 1 рабочего дня.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Руфор — Все права защищены</div>
+      <div class="footer-links">
+        <a href="#privacy">Политика</a>
+        <a href="#terms">Условия</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
