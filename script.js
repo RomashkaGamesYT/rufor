@@ -1,0 +1,1 @@
+console.log('Rufor site loaded');
